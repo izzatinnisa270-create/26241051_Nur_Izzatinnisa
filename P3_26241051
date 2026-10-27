@@ -1,0 +1,28 @@
+print("================================")
+print("     IDENTITAS MAHASISWA")
+print("================================")
+
+# INPUT DATA - WAJIB PAKAI INPUT()
+nama = input("Masukkan Nama          : ")
+nim = int(input("Masukkan NIM           : "))
+prodi = input("Masukkan Prodi         : ")
+dua_digit = int(input("Masukkan 2 Digit NIM : "))
+
+print("================================")
+print("        HASIL PROGRAM")
+print("================================")
+print("")
+
+# OUTPUT DATAl
+print(f"Nama          : {nama}")
+print(f"NIM           : {nim}")
+print(f"Prodi         : {prodi}")
+print(f"2 Digit NIM   : {dua_digit}")
+print("")
+
+# TIPE DATA
+print(f"Tipe Data Nama: {type(nama)}")
+print(f"Tipe Data NIM : {type(nim)}")
+print(f"Tipe Data Prodi : {type(prodi)}")
+print(f"Tipe Data 2 Digit NIM : {type(dua_digit)}")
+print("================================")
